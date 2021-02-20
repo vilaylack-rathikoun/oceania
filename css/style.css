@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins|Roboto");
+
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+@import url("components/detail.css");
+@import url("components/logo.css");
+@import url("components/support.css");
+
+body {
+	font-family: 'Poppins', sans-serif;
+	font-size: 24px;
+	margin: 0px;
+	font-weight: lighter;	
+	text-align: center;
+}
+h1, h2, h3 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+}
+
+h2 {
+	color: #008891;
+}
+
+a {
+	text-decoration: none;
+}
+
+header {
+	height: 100px;
+	background: #62959c;
+	width: 100%
+	z-index: 12;
+}
+
+nav {
+	float: right;
+	line-height: 100px;
+}
+
+nav a {
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 4px;
+	font-size: 20px;
+	margin: 0 10px;
+	color: #fff;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+display: inline;
+padding: 20px;
+}
+.list-inline i {
+	font-size: 50px;
+	color: rgb(30, 30, 30);
+}
+.list-inline i:hover {
+	color: #e7d9ea;
+}

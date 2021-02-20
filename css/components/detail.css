@@ -1,0 +1,33 @@
+.details {
+	display: flex;
+    flex-wrap: wrap;
+}
+
+.detail img{
+	width: 200px;
+    border-radius: 6px;
+
+}
+
+.detail {
+	padding: 20px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 6px;
+    margin: 25px;
+    flex-basis: 240px;
+    flex-grow: 1;
+    color: #008891;
+    letter-spacing: 1px;
+ }
+
+.detail h3 {
+	margin: 18px;
+	font-size: 20px;
+	opacity: 10;
+	margin-bottom: 30px;
+
+}
+

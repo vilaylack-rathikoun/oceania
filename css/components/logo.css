@@ -1,0 +1,15 @@
+.logo {
+	width: 30%;
+	line-height: 100px;
+	float: left;
+}
+
+.logo a{
+	text-decoration: none;
+	font-size: 30px;
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+	letter-spacing: 10px;
+	line-height: 100px;
+}
+
